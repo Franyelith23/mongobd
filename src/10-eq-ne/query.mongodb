@@ -1,0 +1,30 @@
+use("platzi_store")
+
+
+// db.inventory.find({qty: {$eq: 20}})
+// db.inventory.find({qty: {$ne: 20}})
+
+// db.inventory.find({
+//     "item.name": "ab"
+// })
+
+// db.inventory.find({
+//     "item.code": "456"
+// })
+
+// db.inventory.find({
+//     "item.code": { 
+//         $ne: "456"}
+// })
+
+// db.inventory.updateMany(
+//     { "item.code": { 
+//         $ne: "456"}},
+//     {
+//         $inc: {
+//             qty: 100
+//         }
+//     }
+// )
+
+db.inventory.find()
